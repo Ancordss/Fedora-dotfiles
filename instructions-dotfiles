@@ -19,6 +19,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 git clone --depth=1 https://github.com/ryanoasis/nerd-fonts ~/.nerd-fonts
 cd .nerd-fonts 
 sudo ./install.sh
+----- do this if you only use tilix or another simply terminal emulator-------
 
 ## installing powerline
 sudo dnf install powerline vim-powerline tmux-powerline powerline-fonts
@@ -35,6 +36,9 @@ if [ -f `which powerline-daemon` ]; then
   . /usr/share/powerline/bash/powerline.sh
 fi
 ----------------------------------------------------------------------
+
+---- else install tabby---------  
+
 ###create a folder
 mkdir ~/.dotfiles
 mkdir ~/.dotfiles/.config

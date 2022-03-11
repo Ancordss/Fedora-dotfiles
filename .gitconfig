@@ -1,0 +1,6 @@
+[user]
+	name = Ancordss
+[core]
+	editor = neovim
+[crendetial]
+	helper = wincred
