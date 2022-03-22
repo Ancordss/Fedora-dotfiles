@@ -43,6 +43,7 @@ fi
 mkdir ~/.dotfiles
 mkdir ~/.dotfiles/.config
 
+##create install.sh at this part
 #move the config to dotfiles folder
 
 mv .bashrc ~/.dotfiles/
