@@ -17,10 +17,7 @@
 - [x] sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim' 
 ```
-* now go to init.vi and run:
-```
-- [x] :PlugInstall
- ```
+
 * install fonts
  ```
 - [x] git clone --depth=1 https://github.com/ryanoasis/nerd-fonts ~/.nerd-fonts
@@ -52,6 +49,16 @@ fi
     - [X] chmod +x install.sh
     - [X] ./install.sh  or  bash install.sh
 ```
+* run in terminal: 
+* ```
+- [x] curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+- [x]p pip3 install --user neovim 
+ ```
+
+* now go to init.vi and run:
+```
+- [x] :PlugInstall
+ ```
 
 # Issues will be fixed asap. Pull Request Welcomed.
 
