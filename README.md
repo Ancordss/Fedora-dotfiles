@@ -50,7 +50,7 @@ fi
     - [X] ./install.sh  or  bash install.sh
 ```
 * run in terminal: 
-* ```
+ ```
 - [x] curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 - [x]p pip3 install --user neovim 
  ```
